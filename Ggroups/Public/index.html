@@ -16,6 +16,7 @@
       <a href="#about">About Us</a>
       <a href="#contact">Contact</a>
       <a class="btn-primary">Book Free Consultation</a>
+      <button id="themeToggle" class="theme-toggle">🌙</button>
     </nav>
   </div>
 </header>
@@ -23,7 +24,8 @@
 <!-- HERO -->
 <section class="hero">
   <h1>Your Partner in <span>Financial Clarity</span></h1>
-  <p>Your Startup's Financial Backbone</p>
+  <p> Expertly managing company registrations, income tax planning, and GST compliance, we provide a full suite of services including payroll, TDS management, and financial documentation.
+     Our dedicated team ensures every aspect of your statutory and banking needs is handled with precision. You can have complete peace of mind knowing that all your financial needs will be fulfilled by ggroups.</p>
   <div class="hero-buttons">
     <button class="btn-green">Book a Free Consultation</button>
     <button class="btn-outline">Explore Services</button>
@@ -31,57 +33,177 @@
 </section>
 
 <!-- SERVICES -->
-<section class="section" id="services">
+<section class="section services-section" id="services">
   <h2>Our <span>Services</span></h2>
-  <p class="sub-text">Service descriptions will be added later</p>
+  <p class="sub-text">
+    Empowering your business with expert financial solutions, comprehensive tax compliance, and seamless regulatory management tailored to your growth.
+  </p>
 
-  <div class="card-grid">
-    <a href="services/gst.html" class="card">GST Filing & Compliance</a>
-    <a href="services/income-tax.html" class="card">Income Tax & TDS</a>
-    <a href="services/payroll.html" class="card">Payroll & PF Management</a>
-    <a href="services/compliance.html" class="card">Complete Compliance Suite</a>
+  <div class="services-grid">
+    <a href="services/gst.html" class="service-card">
+      <h3>GST Filing & Compliance</h3>
+      <p>GST registration, return filing and compliance management</p>
+    </a>
+
+    <a href="services/it.html" class="service-card">
+      <h3>Income Tax & TDS</h3>
+      <p>Income tax filing, planning and TDS management</p>
+    </a>
+
+    <a href="services/pf.html" class="service-card">
+      <h3>Payroll & PF Management</h3>
+      <p>Payroll processing, PF, ESIC and Form 16</p>
+    </a>
+
+    <a href="services/compliance.html" class="service-card">
+      <h3>Complete Compliance Suite</h3>
+      <p>Company registration and statutory compliance</p>
+    </a>
+
+    <a href="services/tds.html" class="service-card">
+      <h3>TDS & TCS Services</h3>
+      <p>TDS/TCS filing, claiming and rectification</p>
+    </a>
+
+    <a href="services/bank.html" class="service-card">
+      <h3>Bank & Financial Support</h3>
+      <p>Financial statements and loan documentation</p>
+    </a>
   </div>
 </section>
 
 <!-- MISSION -->
 <section class="section light" id="about">
   <h2>Our Mission & <span>Founder's Story</span></h2>
-  <div class="box">
-    <p><!-- Founder & mission content later --></p>
+
+  <div class="mission-wrapper">
+
+    <div class="mission-card">
+      <h3>1. The Vision: Your Startup’s Financial Backbone</h3>
+      <p>
+        We provide the structural stability and professional oversight necessary
+        to turn your startup into a scalable enterprise.
+      </p>
+    </div>
+
+    <div class="mission-card">
+      <h3>2. Our Mission: Comprehensive Documentation</h3>
+      <p>
+        We streamline operations by preparing all essential financial documents,
+        ensuring your company remains organized and audit-ready.
+      </p>
+    </div>
+
+    <div class="mission-card">
+      <h3>3. Core Services</h3>
+      <ul>
+        <li><strong>Reporting:</strong> Accurate balance sheets and P&amp;L statements</li>
+        <li><strong>Compliance:</strong> Maintenance of professional financial records</li>
+        <li><strong>Strategic Support:</strong> Tailored documentation for investors and stakeholders</li>
+      </ul>
+    </div>
+
+    <div class="mission-card">
+      <h3>4. Annual Tax Management</h3>
+      <p>
+        We simplify the tax process by managing year-end filings, maximizing eligible
+        deductions, and ensuring total regulatory compliance.
+      </p>
+    </div>
+
   </div>
 </section>
 
 <!-- GOV PORTALS -->
-<section class="section">
+<section class="section portals-section">
   <h2>Quick Access to <span>Government Portals</span></h2>
+
   <div class="portal-grid">
-    <div class="portal">GST Portal</div>
-    <div class="portal">Income Tax Portal</div>
-    <div class="portal">ESIC Portal</div>
-    <div class="portal">EPF Portal</div>
-    <div class="portal">Professional Tax</div>
-    <div class="portal">MCA Portal</div>
+    <a href="https://www.gst.gov.in" target="_blank" class="portal-card">
+      GST Portal
+    </a>
+
+    <a href="https://www.incometax.gov.in" target="_blank" class="portal-card">
+      Income Tax Portal
+    </a>
+
+    <a href="https://www.esic.gov.in" target="_blank" class="portal-card">
+      ESIC Portal
+    </a>
+
+    <a href="https://www.epfindia.gov.in" target="_blank" class="portal-card">
+      EPF Portal
+    </a>
+
+    <a href="#" class="portal-card">
+      Professional Tax
+    </a>
+
+    <a href="https://www.mca.gov.in" target="_blank" class="portal-card">
+      MCA Portal
+    </a>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="section light" id="contact">
+<section class="section contact-section" id="contact">
   <h2>Get in <span>Touch</span></h2>
+  <p class="sub-text">
+    Ready to simplify your business compliance? Let's talk!
+  </p>
+
   <div class="contact-grid">
-    <div class="box">
-      <input placeholder="Name">
-      <input placeholder="Email">
-      <input placeholder="Phone">
-      <button class="btn-green">Get Your Free Consultation</button>
+
+    <!-- LEFT : FORM -->
+    <div class="contact-card">
+      <label>Name</label>
+      <input type="text" placeholder="Your name">
+
+      <label>Email</label>
+      <input type="email" placeholder="your.email@example.com">
+
+      <label>Phone Number</label>
+      <input type="text" placeholder="Your phone number">
+
+      <label>How can we help you?</label>
+      <textarea placeholder="Tell us about your requirements..."></textarea>
+
+      <button class="btn-green full-btn">
+        Get Your Free Consultation
+      </button>
     </div>
-    <div class="box">
-      <p>Phone: 7671942307</p>
-      <p>Email: mustoorgowtham@gmail.com</p>
-      <p>LinkedIn: linkedin.com/in/mgowtham6</p>
+
+    <!-- RIGHT : CONTACT INFO -->
+    <div class="contact-info">
+
+      <div class="info-card">
+        <h4>📞 Phone</h4>
+        <p>7671942307</p>
+      </div>
+
+      <div class="info-card">
+        <h4>✉️ Email</h4>
+        <p>
+          <a href="mailto:ggroups.finance@gmail.com">
+            ggroups.finance@gmail.com
+          </a>
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h4>🔗 LinkedIn</h4>
+        <p>
+          <a href="https://www.linkedin.com/in/mgowtham6/"
+             target="_blank"
+             rel="noopener">
+            linkedin.com/in/mgowtham6
+          </a>
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer>
   <div class="footer-grid">
